@@ -1,0 +1,318 @@
+@media screen and (max-width: 767px) {
+    .hero-section {
+        padding: 0;  
+    }
+    .signUp {
+        /* font-weight: 500; */
+        font-size: 16px;
+        background: #3671E9;
+        width: 90px;
+        padding: 5px 0;
+        margin-top: 1em;
+        transform: translateX(-8%);
+    }
+    .offer-bar {
+        padding-top: 0;
+    }
+    .offer-bar div:nth-of-type(2) h1 {
+        font-weight: 500;
+        font-size: 29px;
+        text-align: center;
+        line-height: 32px;
+        padding-top: 1em;
+    }
+    /*.offer-bar span:first-child {
+        letter-spacing: 0.01em;
+        width: 110px;
+        height: 30px;
+        padding: auto;
+        border-radius: 15px;
+        margin: auto;
+    }*/
+    .navbar {
+        padding-bottom: 0 !important;
+        padding-top: 2rem !important;
+    }
+    .offer-bar div:nth-of-type(1) {
+        display: none;
+    }
+    
+    /*.offer-bar span:last-child {
+        line-height: 18px;
+        background: rgba(255, 255, 255, 0.1);
+        display: inline-block;
+        margin: auto;
+        padding: 5px 0 5px 20px;
+        border-radius: 20px;
+        width: 200px;
+    }*/
+    .intro {   
+        display: flex;
+        flex-direction: column-reverse;    
+        margin: auto;
+    }
+    .intro div:nth-of-type(2) img {
+        padding-top: 1.5em;
+    }
+    .offer-bar div:nth-of-type(3) {
+        display: block;
+        margin: auto;
+        width: 100%;
+        padding: 1.5em 0 1.5em 1em;
+        text-align: center;
+    }
+    .cta-btn {
+        display: block;
+        width: 118px;
+        height: 31px;
+        font-size: 12px;
+        margin: auto;
+        padding: 5px;
+    }
+    .cta-btn img {
+        width: 22px;
+        height: 22px;
+        margin-left: 5px;
+        transform: translateY(-2px);
+    }
+    .custom-back1 {
+        display: none;
+    }
+    .custom-back2 {
+        display: none;
+    }
+    .data-container {
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        padding-top: 5em;
+        margin: auto;
+    }
+    .data-text h1 {
+        font-size: 29px;
+        text-align: center;
+        padding-top: 1em;
+    }
+    .data-text p {
+        text-align: center;
+    }
+    .data-img {
+        width: 60px;
+        height: 60px;
+        margin: auto;
+    }
+    .data-img img {
+        width: 35px;
+        height: 35px;
+        margin-top: 0.8em;
+    }
+    .crypto-text {
+        width: 100%;
+        height: auto;
+        padding-top: 1.5em;
+        
+    }
+    .crypto-text h1 {
+        font-size: 29px;
+        text-align: center;
+        line-height: 1em;
+        
+    }
+    .crypto-text p {
+        width: 100%;
+        height: auto;
+        padding-bottom: 1em;
+        text-align: center;
+        max-width: 100%;
+    }
+    .learn {
+        font-size: 16px;
+        width: 7em;
+        height: 2em;
+        padding: 2px 1px;
+        display: block;
+        margin: auto;
+        border-radius: 21px;
+    }
+    .crypto-description {
+        padding-top: 5em;
+    }
+    .crypto-description h1 {
+        font-size: 29px;
+        line-height: 1em;
+        
+    }
+    .info-section {
+        padding: 80px 0 0 0;
+        height: 1015px;
+    }
+    .info-section .calc-div {
+        width: 90%;
+        height: 371px;
+        position: relative;
+        transform: translateY(15%);
+        border-radius: 16px;
+        padding: 1em;
+        margin: auto;
+    }
+    form {
+        text-align: center;
+    }
+    .form-control {
+        width: 285px;
+        text-align: center;
+        margin: auto;
+    }
+    .form-group {
+        padding: 0 !important;
+    
+    }
+    .info-section .calc-div .calc-type select {
+        margin-top: 1em;
+        margin-left: 0.5em;
+    }
+    .info-section .calc-div .btn-div button {
+        font-size: 16px;
+        margin: 2em 0 0 0;
+        padding: 0.5em 1em;
+    }
+    .calc {
+        padding: 0;
+        text-align: center;
+    }
+    .info-section .calc-div .calc p span:first-of-type {
+        font-size: 22px;
+    }
+    .info-section .calc-div .calc p span:last-of-type {
+        font-size: 22px;
+    }
+    .info-section .calc-div .calc p:last-of-type {
+        line-height: 1.3em;
+    }
+    .crypto-section > div:first-child h1 {
+        width: 90%;
+        line-height: 1.2em;
+        font-size: 29px;
+    }
+    .card {
+        width: 90%;
+        height: 300px;
+    }
+    .card-img-top {
+        width: 60px;
+        height: 60px;
+        margin: 2em auto 0 auto;
+    }
+    .card-body {
+        padding-top:  1em;
+    }
+    .crypto-name h1 {
+        font: 29px;
+    }
+    .card-text {
+        line-height: 1.5em;
+        padding-bottom: 1.5em;
+    }
+    .crypto-section > div:nth-child(2) {
+        padding-top: 2em;
+    }
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+    .card1 {
+        margin: 1em auto 0 auto !important;
+    }
+    .cta-btn2 {
+        width: 40px;
+        height: 40px;
+        margin-top: 1em;
+    }
+    .cta-btn2 img {
+        width: 28px;
+        height: 28px;
+    }
+    .crypto-name1 h1 {
+        font-size: 29px;
+    }
+    .card-text1 {
+        line-height: 1.5em;
+    }
+    .statistics-section {
+        display: none;
+    }
+    .subscribe-section > div {
+        width: 90%;
+        height: auto;
+
+    }
+    .mining h1 {
+        font-size: 29px;
+        text-align: center;
+        padding-top: 0.5em;
+    }
+    .mining p {
+        width: 90%;
+        text-align: center;
+        line-height: 1.5em;
+        margin: auto;
+        padding-bottom: 2em;
+    }
+    #email::placeholder {
+        color: #ffffff !important;
+    }
+    .subscribe {
+        font-size: 16px;
+        transform: none;
+        padding: 0.5em 1em !important;
+        width: 50%;
+        margin: auto;
+    }
+    .email-section {
+        flex-direction: column;
+        gap: 1em !important;
+        padding: 0;
+        margin: auto;
+        padding-bottom: 1em;
+    }
+    .quick-links {
+        width: 50%;
+        padding-left: 2em;
+        padding-top: 2em;
+    }
+    footer .col-md-3 {
+        padding-left: 1.5em;
+    }
+    .payment-gateway {
+        padding-top: 2em;
+        padding-left: 0;
+        margin: auto;
+    }
+    .payment-gateway h1 {
+        font-size: 1.5em;
+        margin: auto;
+        text-align: center;
+    }
+    .brand-list {
+        margin: auto;
+        padding: 0;
+        width: 50%;
+        justify-content: center;
+    }
+    .footer1 >div {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: auto;
+    }
+    .social {
+        margin: auto;
+        justify-content: space-around;
+        padding-bottom: 1.5em;
+    }
+    .footer1 > div > div > p {
+        margin: auto;
+        text-align: center;
+        padding-top: 1em;
+    }
+
+}
