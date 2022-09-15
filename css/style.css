@@ -380,7 +380,7 @@ input:-moz-placeholder {
 }
 .crypto-section {
     background: linear-gradient(180deg, #F8F9FB 0%, #FAFBFF 100%);
-    padding-top: 5em;
+    padding-top: 15em;
 }
 
 .crypto-section > div:first-child h1{
